@@ -1,4 +1,9 @@
 /*
+    Actividad 1. Carrito de la compra aGoodShop
+    2º DAW. DWEC
+    Adrián Ignacio Pérez Martos
+ */
+/*
     Clase Carrito: constructor vacio
 */
 class Carrito{
@@ -292,7 +297,8 @@ document.addEventListener("DOMContentLoaded", ()=> {
 
 
     //Obtenemos mediante el fecth los datos de la API
-    fetch("https://jsonblob.com/api/1421811651841286144")
+    // fetch("https://jsonblob.com/api/1421811651841286144")
+    fetch("https://mocki.io/v1/9a926951-f996-4b80-aa33-26cd10b2312a")
     .then(response => response.json())
     .then(productos => {
         cargarProductos(productos);
